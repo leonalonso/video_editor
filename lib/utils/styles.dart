@@ -38,8 +38,8 @@ class TrimSliderStyle {
     Color background,
     this.dotRadius = 5,
     this.lineWidth = 2,
-    this.dotColor = Colors.white,
-    this.lineColor = Colors.white,
+    this.dotColor = Colors.yellow,
+    this.lineColor = Colors.yellow,
     this.positionLineColor = Colors.red,
   }) : this.background = background ?? Colors.black.withOpacity(0.6);
 
