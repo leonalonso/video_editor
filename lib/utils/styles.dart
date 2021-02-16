@@ -4,11 +4,11 @@ class CropGridStyle {
   ///Style for [CropGridViewer]. It's use on VideoEditorController
   CropGridStyle({
     Color croppingBackground,
-    this.background = Colors.white,
-    this.gridLineColor = Colors.white,
+    this.background = Color.fromRGBO(34, 34, 34, 1),
+    this.gridLineColor = Color.fromRGBO(34, 34, 34, 1),
     this.gridLineWidth = 1,
     this.gridSize = 3,
-    this.boundariesColor = Colors.white,
+    this.boundariesColor = Color.fromRGBO(34, 34, 34, 1),
     this.boundariesLenght = 20,
     this.boundariesWidth = 5,
   }) : this.croppingBackground =
